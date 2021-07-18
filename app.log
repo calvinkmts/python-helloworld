@@ -1,0 +1,24 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.198.132:5000/ (Press CTRL+C to quit)
+INFO:root:Main request successfull
+INFO:app:Main request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 19:39:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 19:39:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Main request successfull
+INFO:app:Main request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 20:06:20] "GET / HTTP/1.1" 200 -
+INFO:root:Metrics request successfull
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 20:06:25] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.198.132:5000/ (Press CTRL+C to quit)
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 20:08:39] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Status request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 20:08:50] "GET /status HTTP/1.1" 200 -
+INFO:app:Status request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 20:09:06] "GET /status HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.198.1 - - [25/Jun/2021 20:09:10] "GET /metrics HTTP/1.1" 200 -
